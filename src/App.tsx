@@ -4,6 +4,7 @@ import Navbar from './components/navbar/navbar';
 import './App.css';
 import Button from './components/button/Button';
 import Footer from './components/footer/Footer';
+import Card from './components/card/Card'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         </a>
       </header>
       <Navbar />
+      <Card />
       <Button />
       <Footer />
     </div >
