@@ -23,8 +23,8 @@ function App() {
           Learn React
         </a>
       </header>
-      <Button />
       <Navbar />
+      <Button />
       <Footer />
     </div >
   );
