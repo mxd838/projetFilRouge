@@ -1,7 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
+import Navbar from './components/navbar/navbar';
 import './App.css';
-import Card from './components/card/Card';
+import Button from './components/button/Button';
+import Footer from './components/footer/Footer';
+import Card from './components/card/Card'
+
 
 function App() {
   return (
@@ -20,8 +24,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Navbar />
       <Card />
-    </div>
+      <Button />
+      <Footer />
+    </div >
   );
 }
 
