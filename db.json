@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "kway",
+            "category": "clothes",
+            "deadline": "2022-09-12",
+            "description": "Imperméable mixte",
+            "buyers": 42,
+            "levels": [
+                {
+                    "level": 0,
+                    "buyersNeeded": 0,
+                    "price": 199
+                },
+                {
+                    "level": 1,
+                    "buyersNeeded": 30,
+                    "price": 181
+                },
+                {
+                    "level": 2,
+                    "buyersNeeded": 60,
+                    "price": 159.99
+                },
+                {
+                    "level": 3,
+                    "buyersNeeded": 120,
+                    "price": 145
+                }
+            ],
+            "details": "La cape Terence est parfaite pour les jours de pluie. Son tissu technique en stretch procure une protection optimale contre l’humidité et le vent.",
+            "keywords": "IMPERMEABLE – COUPE-VENT – RESPIRANT – COUTURES THERMO-SOUDEES",
+            "origin": "France",
+            "images": [
+                "not here yet",
+                "pero las voy a añadir pronto",
+                "c'est l'idée en tout cas"
+            ],
+            "produced": true,
+            "craft": false,
+            "recycled": false,
+            "responsible": true
+        }
+    ]
+}
