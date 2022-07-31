@@ -1,6 +1,10 @@
-const NavItem = () => {
+import { Link } from "react-router-dom"
+
+const NavItem = ({direction, text} : any) => {
     return (
-        <li></li>
+        <li>
+            <Link to={direction}>{text}</Link>
+        </li>
     )
 }
 

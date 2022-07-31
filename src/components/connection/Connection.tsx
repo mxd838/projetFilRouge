@@ -3,7 +3,7 @@ import './Connection.css'
 
 const Connection = () => {
     return (
-        <form></form>
+        <form>Connexion</form>
     )
 }
 
