@@ -3,7 +3,7 @@ import './Card.css'
 const Card = () => {
     return (
         <div className='card'>
-            c'est une zolie carte
+            card
         </div>
     )
 }
